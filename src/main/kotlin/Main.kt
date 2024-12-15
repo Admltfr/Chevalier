@@ -62,7 +62,7 @@ fun main() {
     val x = 10
     val y = 10
     val hasil = process(x) {
-        x -> {x*2}
+        x -> {y*2}
     }
     println(hasil)
 
