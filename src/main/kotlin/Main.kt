@@ -108,7 +108,7 @@ fun userValidator() : User {
         if (!(User.entries.any { it.name == userInput })) {
             print("User not found, please enter the existing username : ")
         } else {
-            println("Welcome $userInput")
+            println("Welcome ${userInput}")
         }
     } while (!(User.entries.any { it.name == userInput }))
     return User.valueOf(userInput)
