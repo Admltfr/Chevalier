@@ -76,7 +76,7 @@ fun LoginScreen(modifier: Modifier = Modifier) {
                 leadingIcon = {
                     Icon(
                         imageVector = Icons.Default.Email,
-                        contentDescription = "Password"
+                        contentDescription = "Email"
                     )
                 }
             )
@@ -91,7 +91,7 @@ fun LoginScreen(modifier: Modifier = Modifier) {
                 leadingIcon = {
                     Icon(
                         imageVector = Icons.Default.Lock,
-                        contentDescription = "Username"
+                        contentDescription = "Password"
                     )
                 }
             )
